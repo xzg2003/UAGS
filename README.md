@@ -1,4 +1,4 @@
-# UDFS：股票因子表达式搜索与评估
+# UAGS：股票因子表达式搜索与评估
 
 本项目使用 DAG 搜索股票因子表达式，并用原生表达式计算器评估因子。搜索先以默认窗口 5 评估图，再为结果中的滑动算子采样窗口长度；采样后的因子需要重新计算 IC，之后才能用于组合拟合。
 
@@ -65,7 +65,3 @@ python analyze_result/combine_factors.py --instruments csi300 --seed 0 \
 - `DAG_search/`：计算图和 DAG 搜索。
 - `expr_cal/`：行情载入和原生表达式求值。
 - `analyze_result/`：IC、组合、组合统计和因子值导出。
-- `backtest_pipeline/`：可选 Qlib 回测。
-- `scripts/`：可选数据采集、转换和检查工具。
-
-仓库未附带开源许可证；公开发布前应确定授权条款并添加 `LICENSE`。
