@@ -1,0 +1,29 @@
+# Search and analysis outputs
+result/
+qlib_data/
+
+# Python bytecode and local caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments and packaging artifacts
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Generated logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local notebooks and editor state
+.ipynb_checkpoints/
+.idea/
+.DS_Store
